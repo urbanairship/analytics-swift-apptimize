@@ -1,0 +1,34 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Segment",
+        "repositoryURL": "https://github.com/segmentio/analytics-swift.git",
+        "state": {
+          "branch": null,
+          "revision": "1b4fe3f314404d3e7458428493ce5f01adf2eed7",
+          "version": "1.3.5"
+        }
+      },
+      {
+        "package": "Apptimize",
+        "repositoryURL": "https://github.com/urbanairship/apptimize-ios-kit.git",
+        "state": {
+          "branch": null,
+          "revision": "ed6597240492c403a86d859dee33d912999a1141",
+          "version": "3.5.17"
+        }
+      },
+      {
+        "package": "Sovran",
+        "repositoryURL": "https://github.com/segmentio/Sovran-Swift.git",
+        "state": {
+          "branch": null,
+          "revision": "944c17d7c46bd95fc37f09136cabd172be5b413b",
+          "version": "1.0.3"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
