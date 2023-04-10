@@ -14,7 +14,7 @@
 		46EDC70727C6B8D200B870D7 /* BasicExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EDC70627C6B8D200B870D7 /* BasicExampleTests.swift */; };
 		46EDC71127C6B8D200B870D7 /* BasicExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EDC71027C6B8D200B870D7 /* BasicExampleUITests.swift */; };
 		46EDC71327C6B8D200B870D7 /* BasicExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EDC71227C6B8D200B870D7 /* BasicExampleUITestsLaunchTests.swift */; };
-		60E44B7F29D7458C00835FFF /* SegmentApptimize in Frameworks */ = {isa = PBXBuildFile; productRef = 60E44B7E29D7458C00835FFF /* SegmentApptimize */; };
+		60E44B8829D757DC00835FFF /* SegmentApptimize in Frameworks */ = {isa = PBXBuildFile; productRef = 60E44B8729D757DC00835FFF /* SegmentApptimize */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60E44B7F29D7458C00835FFF /* SegmentApptimize in Frameworks */,
+				60E44B8829D757DC00835FFF /* SegmentApptimize in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,7 +154,7 @@
 			);
 			name = BasicExample;
 			packageProductDependencies = (
-				60E44B7E29D7458C00835FFF /* SegmentApptimize */,
+				60E44B8729D757DC00835FFF /* SegmentApptimize */,
 			);
 			productName = BasicExample;
 			productReference = 46EDC6F227C6B8D100B870D7 /* BasicExample.app */;
@@ -229,7 +229,7 @@
 			);
 			mainGroup = 46EDC6E927C6B8D100B870D7;
 			packageReferences = (
-				60E44B7D29D7458C00835FFF /* XCRemoteSwiftPackageReference "analytics-swift-apptimize" */,
+				60E44B8629D757DC00835FFF /* XCRemoteSwiftPackageReference "analytics-swift-apptimize" */,
 			);
 			productRefGroup = 46EDC6F327C6B8D100B870D7 /* Products */;
 			projectDirPath = "";
@@ -597,20 +597,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		60E44B7D29D7458C00835FFF /* XCRemoteSwiftPackageReference "analytics-swift-apptimize" */ = {
+		60E44B8629D757DC00835FFF /* XCRemoteSwiftPackageReference "analytics-swift-apptimize" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "git@github.com:urbanairship/analytics-swift-apptimize.git";
 			requirement = {
-				branch = main;
-				kind = branch;
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		60E44B7E29D7458C00835FFF /* SegmentApptimize */ = {
+		60E44B8729D757DC00835FFF /* SegmentApptimize */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 60E44B7D29D7458C00835FFF /* XCRemoteSwiftPackageReference "analytics-swift-apptimize" */;
+			package = 60E44B8629D757DC00835FFF /* XCRemoteSwiftPackageReference "analytics-swift-apptimize" */;
 			productName = SegmentApptimize;
 		};
 /* End XCSwiftPackageProductDependency section */
